@@ -1,0 +1,139 @@
+body {
+    background-color: #dddddd;
+}
+
+#header {
+    background-color: #ffffff;
+}
+
+#head1 {
+    color: #9d1515;
+    text-align: left;
+	font-size: 40px;
+}
+
+#phead1 {
+    font-family: "Times New Roman";
+    font-size: 20px;
+	text-align: right;
+}
+
+#links {
+	color: #ffffff;	
+	background-color: #459d45;
+	font-size: 10px;
+}
+
+#linkbutton {
+	height:60px;
+	color: #ffffff;	
+	background-color: #459d45;
+	font-size: 25px;
+	font-family: "Times New Roman";
+	box-shadow: 1px 2px 5px #000000;
+	border: none;
+	cursor: pointer;
+	padding: 15px 32px;
+	border-radius: 0px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#linkbutton:hover {
+    background: #fff;
+    color: #9d1515;
+}
+
+#tdform{
+	font-family: "Times New Roman";
+    font-size: 15px;
+	text-align: left;
+	color: #ffffff;	
+	background-color: #459d45;
+	box-shadow: 1px 2px 5px #000000;
+	border-radius: 25px;
+}
+
+#email,#pwd{
+	height:40px;
+	box-shadow: 1px 2px 5px #000000;
+	border-radius: 15px;
+	font-family: "Times New Roman";
+	text-align: left;
+}
+
+#submit{
+	height:50px;
+	color: #ffffff;	
+	background-color: #9d4545;
+	font-size: 15px;
+	font-family: "Times New Roman";
+	text-align: center;
+	border: 10px;
+	cursor: pointer;
+	padding: 15px 30px;
+	border-radius: 15px;
+	box-shadow: 1px 2px 5px #121212; rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#submit:hover {
+    background: #fff;
+	color: #9d1515;
+}
+
+#row {
+    display: block;
+	text-align: left;
+	padding-left: 250px;
+}
+
+#elt{
+	background-color: #dddddd;
+	border-radius: 15px;
+	text-align: left; 
+	box-shadow: 1px 2px 5px #000000;
+	padding: 3px 15px;
+	}
+	
+#view{
+	height:45px;
+	color: #ffffff;	
+	background-color: #459d45;
+	font-size: 15px;
+	font-family: "Times New Roman";
+	border: 10px;
+	cursor: pointer;
+	padding: 15px 15px;
+	border-radius: 15px;
+	box-shadow: 1px 2px 5px #121212; rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+#view:hover {
+    background: #fff;
+	color: #159d15;}
+
+#detail{
+	color: #000000;
+	font-family: "Times New Roman";
+	background-color: #ffff55;
+	text-align: left;
+	border-radius: 35px;
+	font-size: 0px;
+
+}
+
+#new{
+	float: right;
+	color: #9d1515;
+	border-radius: 100px;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes mymove {
+    from {right: 0px;}
+    to {right: 100px;}
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 100px;}
+}

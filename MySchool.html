@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>MySchool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/MySchool.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <style>
+  
+	body {
+		background-color: white;
+		}
+	#img {
+		background-image: url("images/school.jpg");
+		}
+	.w3-lobster {
+		font-family: "Lobster", serif;
+		}
+	.w3-tangerine {
+		font-family: 'Tangerine', serif;
+		}
+	.w3-theme-l5 {
+	color:#000 !important;background-color:#e8eaf6 !important}
+	.w3-mouse:hover {
+	color:#000 !important;background-color:#e8eaf6 !important}
+  </style>
+  </head>
+
+<body>
+<ul class="w3-navbar w3-black w3-large">
+  <li><img src="images/logo.bmp" Style="height:60px; width:120px" class="img-responsive" alt="Image zenù"></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="MySchool.html"><i class="glyphicon glyphicon-home"></i></a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="pages/School.html">Schools</a>	</li>
+  <li><a class="w3-text-white w3-hover-yellow" href="pages/concours.html">Entrance exams</a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="#">Adverts</a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="#">About us</a></li>
+  <li  onclick="document.getElementById('login').style.display='block'" class="w3-hover-yellow w3-right"><a href="#"><i class="glyphicon glyphicon-user  w3-text-white"></i></a></li>
+  <li class="w3-hover-yellow w3-right"><a href="#"><i class="glyphicon glyphicon-search  w3-text-white"></i></a></li>
+</ul>
+
+<header class="w3-theme-l5 w3-container w3-teal">
+ <p>The best for informations about schools and entrance exams in Cameroon</p>
+ <p class="w3-right"> Made by EsayWay</p>
+</header>
+
+<div class="container-fluid">
+	
+	<div class="col-sm-4"></div>
+	<div class="w3-tangerine col-sm-4 w3-bottom">
+		<br>
+		<br>
+		<div class="w3-mouse w3-round-large w3-hover-yellow"><br><a href="pages/School.html" class="w3-btn-floating-large w3-light-blue w3-theme-action w3-right" style="position:relative" >+</a><h3>Click here to search School</h3><br></div>
+		<br>
+		<br>
+		<div class="w3-mouse w3-round-large w3-hover-yellow"><br><a href="pages/concours.html" class="w3-btn-floating-large w3-light-blue w3-theme-action w3-right" style="position:relative">+</a><h3>Click here to search Entrance exams</h3><br></div>
+		<br>
+	</div>
+</div>
+
+<!-- This block is use to log in -->
+<div id="login" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('login').style.display='none'" class="w3-closebtn">X</span>
+			<br>
+			<form class="w3-container">
+			<p>
+			<label>User Name</label>
+			<input class="w3-input" type="text"></p>
+			<p>
+			<label>password</label>
+			<input class="w3-input" type="text"></p>
+			<p><button class="w3-btn w3-xlarge w3-round-xxlarge w3-green">Login</button></p>
+			</form>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-theme-l5 w3-container w3-teal w3-tangerine w3-bottom">
+  <p>Copy right</p>
+  <p>To take any private element here, first contact Easy way S.A to have the right.</p>
+</footer>
+
+<!-- JavaScript for navigation bar -->
+<script>
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+}
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+}
+</script>
+
+
+</body>
+</html> 

@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>MySchool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/w3.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/MySchool.css">
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+
+  <style>
+	body {
+		background-color: white;
+		background-image: url("../images/school.jpg");
+		}
+	#img {
+		background-image: url("../images/school.jpg");
+		}
+	.w3-lobster {
+		font-family: "Lobster", serif;
+		}
+	.w3-tangerine {
+		font-family: 'Tangerine', serif;
+		}
+  </style>
+  </head>
+
+<body>
+
+<nav id="nav01" class="w3-sidenav w3-collapse w3-white w3-card-2 w3-animate-left " style="width:200px;">
+	<h3 class="w3-text-shadow w3-green">Region</h3>
+		<li><a class="w3-hover-red" href="#">Extrême-Nord</a></li>
+		<li><a class="w3-hover-red" href="#">Nord</a></li>
+		<li><a class="w3-hover-red" href="#">Adamaoua</a></li>
+		<li><a class="w3-hover-red" href="#">Nord-Ouest</a></li>
+		<li><a class="w3-hover-red" href="#">Ouest</a></li>
+		<li><a class="w3-hover-red" href="#">Sud-Ouest</a></li>
+		<li><a class="w3-hover-red" href="#">Centre</a></li>
+		<li><a class="w3-hover-red" href="#">Littoral</a></li>
+		<li><a class="w3-hover-red" href="#">Est</a></li>
+		<li><a class="w3-hover-red" href="#">Sud</a></li>
+		<li><a class="w3-hover-red" href="#">Anywhere!</a></li>
+	<h3 class="w3-text-shadow w3-green">Categorie</h3>		
+		<li><a class="w3-hover-yellow" href="#">Professional</a></li>
+		<li><a class="w3-hover-yellow" href="#">Arts</a></li>
+		<li><a	class="w3-hover-yellow" href="#">Science</a></li>
+		<li><a class="w3-hover-yellow" href="#">Cultural</a></li>
+		<li><a class="w3-hover-yellow" href="#">Agriculture</a></li>
+		<li><a class="w3-hover-yellow" href="#">Medecine</a></li>
+		<li><a class="w3-hover-yellow" href="#">Armis</a></li>
+		<li><a class="w3-hover-yellow" href="#">Anyone!</a></li>
+		</nav>
+		
+<div id="img" class="container-fluid w3-main" style="margin-left:200px" role="main">
+
+<ul class="w3-navbar w3-black w3-large">
+  <li><img src="../images/logo.bmp" Style="height:60px; width:120px" class="img-responsive" alt="Image zenù"></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="../MySchool.html"><i class="glyphicon glyphicon-home"></i></a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="School.html">Schools</a>	</li>
+  <li><a class="w3-text-white w3-hover-yellow" href="concours.html">Entrance exams</a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="#">Adverts</a></li>
+  <li><a class="w3-text-white w3-hover-yellow" href="#">About us</a></li>
+  <li onclick="document.getElementById('login').style.display='block'" class="w3-hover-yellow w3-right"><a href="#"><i class="glyphicon glyphicon-user  w3-text-white"></i></a></li>
+  <li class="w3-hover-yellow w3-right"><a href="#"><i class="glyphicon glyphicon-search  w3-text-white"></i></a></li>
+</ul>
+
+<div class="w3-light-grey" id="img">
+ 
+</div>
+
+<!-- This block is use to log in -->
+<div id="login" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('login').style.display='none'" class="w3-closebtn">X</span>
+			<br>
+			<form class="w3-container">
+			<p>
+			<label>User Name</label>
+			<input class="w3-input" type="text"></p>
+			<p>
+			<label>password</label>
+			<input class="w3-input" type="text"></p>
+			<p><button class="w3-btn w3-xlarge w3-round-xxlarge w3-green">Login</button></p>
+			</form>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-theme-l5 w3-container w3-teal w3-tangerine w3-bottom">
+  <p>Copy right</p>
+  <p>To take any private element here, first contact Easy way S.A to have the right.</p>
+</footer>
+	
+</div>
+
+<!-- JavaScript for navigation bar -->
+
+</body>
+</html> 
